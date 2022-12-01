@@ -1,0 +1,85 @@
+.cartSection {
+    width : 500px;
+    max-height : 0px;
+    position : absolute;
+    right : 0px;
+    top : 123px;
+    opacity: 0;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    border-left: 1px solid rgb(122, 25, 25);
+    border-bottom: 1px solid rgb(122, 25, 25);
+    background-color: white;
+    transition: all 1s ease-in-out;
+}
+.cartSection-show{
+    max-height : 500px;
+    opacity: 1;
+}
+.cart-articles {
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartModal {
+    width : 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin : 10px 0;
+}
+.cartImage {
+    width: 20%;
+    object-fit: fill;
+}
+.cartcontent {
+    width : 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.2;
+}
+.cartTitle {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+.cartQuantity {
+    width : 40%;
+    border: 1px solid black;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+}
+.cartPrix, .subtotal-price {
+    width : 20%;
+    font-size: 1rem;
+    text-align: end;
+    font-weight: 600;
+}
+.cartLine {
+    width : 92%;
+    height : 1px;
+    background-color: rgb(122, 25, 25);
+}
+.subtotal {
+    width : 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 ;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.subtotal-title {
+    width : 20%;
+    text-align: center;
+}
+.subtotal-price {
+    font-size: 1.2rem;
+}
+

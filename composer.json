@@ -1,0 +1,20 @@
+{
+    "name": "acs/projet-ph-pindividu",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "helpers.php",
+            "config.php"
+        ]
+
+    },
+    "authors": [
+        {
+            "name": "trong",
+            "email": "t.vu@codeur.online"
+        }
+    ],
+    "require": {}
+}
